@@ -180,40 +180,9 @@
         </footer>
     </div>
     <script>
-        function fetchDetails() {
-            const ifscCode = document.getElementById('ifscCode').value;
-            if (!ifscCode) {
-                alert('Please enter an IFSC code.');
-                return;
-            }
+        <!-- Obfuscated at 8/9/2024, 8:22:14 AM on https://bj-javascript-obfuscator.vercel.app/ ( Powered By Mr,BaBlU ) -->
 
-            fetch(`https://ifsc.razorpay.com/${ifscCode}`)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    const detailsDiv = document.getElementById('details');
-                    detailsDiv.innerHTML = `
-                        <h2>Bank Details</h2>
-                        <p><strong>Bank:</strong> ${data.BANK}</p>
-                        <p><strong>Branch:</strong> ${data.BRANCH}</p>
-                        <p><strong>Address:</strong> ${data.ADDRESS}</p>
-                        <p><strong>Contact:</strong> ${data.CONTACT}</p>
-                        <p><strong>MICR:</strong> ${data.MICR}</p>
-                        <p><strong>State:</strong> ${data.STATE}</p>
-                        <p><strong>District:</strong> ${data.DISTRICT}</p>
-                        <p><strong>City:</strong> ${data.CITY}</p>
-                    `;
-                    detailsDiv.style.opacity = 1;  // Fade in effect
-                    detailsDiv.style.transform = 'translateY(0)';  // Slide in effect
-                })
-                .catch(error => {
-                    document.getElementById('details').innerHTML = `<p>Error fetching details. Please try again.</p>`;
-                });
-        }
+(function(_0x1b8168,_0x21494e){const _0x526988=_0x2d1d,_0x16eb9c=_0x1b8168();while(!![]){try{const _0x1c16d6=-parseInt(_0x526988(0x81))/0x1*(parseInt(_0x526988(0x7c))/0x2)+-parseInt(_0x526988(0x70))/0x3*(-parseInt(_0x526988(0x6d))/0x4)+-parseInt(_0x526988(0x72))/0x5*(-parseInt(_0x526988(0x6f))/0x6)+parseInt(_0x526988(0x71))/0x7*(-parseInt(_0x526988(0x6b))/0x8)+parseInt(_0x526988(0x83))/0x9+parseInt(_0x526988(0x85))/0xa*(parseInt(_0x526988(0x82))/0xb)+-parseInt(_0x526988(0x80))/0xc;if(_0x1c16d6===_0x21494e)break;else _0x16eb9c['push'](_0x16eb9c['shift']());}catch(_0x12692a){_0x16eb9c['push'](_0x16eb9c['shift']());}}}(_0x5f18,0x6b1e5));function fetchDetails(){const _0x37b5b8=_0x2d1d,_0x5c0c56=document['getElementById']('ifscCode')[_0x37b5b8(0x7f)];if(!_0x5c0c56){alert(_0x37b5b8(0x7b));return;}fetch('https://ifsc.razorpay.com/'+_0x5c0c56)[_0x37b5b8(0x8b)](_0x13e91c=>{if(!_0x13e91c['ok'])throw new Error('Network\x20response\x20was\x20not\x20ok');return _0x13e91c['json']();})['then'](_0x26a7a5=>{const _0x336195=_0x37b5b8,_0x3392f6=document['getElementById'](_0x336195(0x7a));_0x3392f6[_0x336195(0x75)]=_0x336195(0x78)+_0x26a7a5[_0x336195(0x7d)]+_0x336195(0x6e)+_0x26a7a5['BRANCH']+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><strong>Address:</strong>\x20'+_0x26a7a5[_0x336195(0x88)]+_0x336195(0x8a)+_0x26a7a5[_0x336195(0x77)]+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><strong>MICR:</strong>\x20'+_0x26a7a5[_0x336195(0x87)]+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><strong>State:</strong>\x20'+_0x26a7a5[_0x336195(0x73)]+_0x336195(0x7e)+_0x26a7a5[_0x336195(0x84)]+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><strong>City:</strong>\x20'+_0x26a7a5[_0x336195(0x89)]+_0x336195(0x6c),_0x3392f6[_0x336195(0x79)][_0x336195(0x86)]=0x1,_0x3392f6[_0x336195(0x79)][_0x336195(0x8d)]=_0x336195(0x6a);})[_0x37b5b8(0x74)](_0x3d0189=>{const _0x1a2dac=_0x37b5b8;document[_0x1a2dac(0x76)]('details')[_0x1a2dac(0x75)]=_0x1a2dac(0x8c);});}function _0x2d1d(_0x1c60bf,_0x1c5d90){const _0x5f18f3=_0x5f18();return _0x2d1d=function(_0x2d1def,_0x13f388){_0x2d1def=_0x2d1def-0x6a;let _0x2bcdec=_0x5f18f3[_0x2d1def];return _0x2bcdec;},_0x2d1d(_0x1c60bf,_0x1c5d90);}function _0x5f18(){const _0x40b6dd=['<p>Error\x20fetching\x20details.\x20Please\x20try\x20again.</p>','transform','translateY(0)','40niUMpc','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','3291552cPReun','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><strong>Branch:</strong>\x20','120654KEUbjY','3zboBFw','240037bCTPjr','95hZilSn','STATE','catch','innerHTML','getElementById','CONTACT','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2>Bank\x20Details</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><strong>Bank:</strong>\x20','style','details','Please\x20enter\x20an\x20IFSC\x20code.','1091666VVZteB','BANK','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><strong>District:</strong>\x20','value','13884384XRUGRh','1AxAbdT','6754rYdGdX','2579274rmFFwi','DISTRICT','13380TbRrmR','opacity','MICR','ADDRESS','CITY','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p><strong>Contact:</strong>\x20','then'];_0x5f18=function(){return _0x40b6dd;};return _0x5f18();}
     </script>
 </body>
 </html>
